@@ -1,0 +1,19 @@
+{
+  "name": "@novaras/js-enum",
+  "version": "1.0.0",
+  "description": "This package allows you to make semantic enums in vanilla JS.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Novaras/js-enum.git"
+  },
+  "author": "Thomas Fear (tfear091@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Novaras/js-enum/issues"
+  },
+  "homepage": "https://github.com/Novaras/js-enum#readme"
+}
