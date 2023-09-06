@@ -9,7 +9,7 @@ export class EnumError extends Error {
     }
 }
 
-export default ENUM = (obj, options) => {
+export default (obj, options) => {
     const opts = {
         strict: true,
         ...options
