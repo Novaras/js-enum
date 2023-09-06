@@ -1,4 +1,4 @@
-class EnumError extends Error {
+export class EnumError extends Error {
     constructor(...args) {
         super(...args);
 
@@ -9,7 +9,7 @@ class EnumError extends Error {
     }
 }
 
-const ENUM = (obj, options) => {
+export default ENUM = (obj, options) => {
     const opts = {
         strict: true,
         ...options
